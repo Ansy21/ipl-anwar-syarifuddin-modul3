@@ -1,7 +1,6 @@
 package ISP;
 
-class Car implements VehicleInterface {
-    // Can be implemented
+class Car implements VehicleInterface, DoorInterface {
     @Override
     public void drive() {
     }

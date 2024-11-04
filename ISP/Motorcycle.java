@@ -1,21 +1,10 @@
 package ISP;
 
-class Motorcycle implements VehicleInterface {
-    // Can be implemented
-    @Override
-    public void drive() {
-    }
+class Motorcycle:VehicleInterface
+{
+    override fun drive() {}
 
-    @Override
-    public void stop() {
-    }
+    override fun stop() {}
 
-    @Override
-    public void refuel() {
-    }
-
-    // Can not be implemented
-    @Override
-    public void openDoors() {
-    }
+    override fun refuel() {}
 }
