@@ -1,10 +1,15 @@
 package ISP;
 
-class Motorcycle:VehicleInterface
-{
-    override fun drive() {}
+class Motorcycle implements VehicleInterface {
+    @Override
+    public void drive() {
+    }
 
-    override fun stop() {}
+    @Override
+    public void stop() {
+    }
 
-    override fun refuel() {}
+    @Override
+    public void refuel() {
+    }
 }
